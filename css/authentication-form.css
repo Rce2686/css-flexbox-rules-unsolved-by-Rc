@@ -24,9 +24,149 @@ p {
 
 /* 👇👇👇  ADD YOUR FORM STYLES BENEATH  👇👇👇*/
 
-form {
-  border: 1px solid #a9a9a9;
-  padding: 20px;
+.content{
+  display: flex;
+  width: 100%;
+  height: 600px;
+  gap: 30px;
+}
+
+#sign-in{
+display: flex;
+flex-direction: column;
+height: 50%;
+gap: 30px;
+}
+
+
+.form-header1l{
+display: flex;
+flex-direction: column;
+gap: 6px;
+}
+
+.sign-in-field{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  gap:15px;
+  padding: 6px;
+  border: 1px solid;
+}
+
+.form-input-control1l{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  padding: 10px;
+}
+
+.form-input-control2l{
+display: flex;
+flex-direction: column;
+gap:10px;
+padding: 10px;
+}
+
+.form-checkbox-control1l{
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+}
+
+.form-checkbox-control1l>label{
+  font-weight: 400;
+}
+
+.form-submit-control1l{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+
+#sign-up{
+display: flex;
+flex-direction: column;
+gap: 30px;
+}
+
+
+.form-header2r{
+display: flex;
+flex-direction: column;
+gap: 6px;
+}
+
+#sign-up-form{
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  padding: 6px;
+  border: 1px solid;
+}
+
+.form-input-control1r{
+display: flex;
+flex-direction: column;
+gap:10px;
+padding: 10px;
+}
+
+.form-input-control2r{
+display: flex;
+flex-direction: column;
+gap:10px;
+padding: 10px;
+}
+
+.form-input-control3r{
+display: flex;
+flex-direction: column;
+gap:10px;
+padding: 10px;
+}
+
+.form-input-control4r{
+display: flex;
+flex-direction: column;
+gap:10px;
+padding: 10px;
+}
+
+.form-input-control5r{
+display: flex;
+flex-direction: column;
+gap:10px;
+padding: 10px;
+}
+
+.form-input-control6r{
+display: flex;
+flex-direction: column;
+padding: 10px;
+}
+
+.form-group-horizontal-control{
+display: flex;
+gap:10px;
+padding: 10px;
+}
+
+.form-input-control8r{
+display: flex;
+flex-direction: column;
+}
+
+.form-radio-control>label{
+  font-weight: 400;
+}
+
+.form-submit-control2{
+  display: flex;
+  justify-content: center;
+  align-self: center;
 }
 
 .subtext {
