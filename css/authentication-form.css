@@ -52,6 +52,7 @@ gap: 6px;
   gap:15px;
   padding: 6px;
   border: 1px solid;
+  border: solid red;
 }
 
 .form-input-control1l{
@@ -59,6 +60,7 @@ gap: 6px;
   flex-direction: column;
   gap:10px;
   padding: 10px;
+  border: solid red;
 }
 
 .form-input-control2l{
